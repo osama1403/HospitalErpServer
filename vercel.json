@@ -22,7 +22,7 @@
         },
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://hospital-erp-three.vercel.app/"
+          "value": "https://hospital-erp-three.vercel.app"
         },
         {
           "key": "Access-Control-Allow-Methods",
