@@ -23,7 +23,7 @@ const accountSchema = new Schema({
   },
   role: {
     type: String,
-    enum: ['ADMIN', 'DOCTOR', 'NURSE', 'RECEPTIONIST'],
+    enum: ['ADMIN', 'DOCTOR', 'NURSE', 'STAFF'],
     required: true
   },
   password: {
