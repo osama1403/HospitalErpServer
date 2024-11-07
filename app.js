@@ -13,10 +13,12 @@ app.use(cors({
 }))
 connectDB()
 
-app.use('/api',express.json(), apiRouter)
+app.use('/api', express.json(), apiRouter)
 
 
 mongoose.connection.once('open', () => {
   console.log("DB connected");
   const server = app.listen(5000, () => { console.log('server is up on port 5000'); })
 })
+
+module.exports = app
