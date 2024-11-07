@@ -43,4 +43,4 @@ const getAllDoctors = async (req, res) => {
     return res.status(500).json({ success: false, msg: 'server error' })
   }
 }
-module.exports = { getAllStaff }
+module.exports = { getAllStaff, getAllDoctors }
